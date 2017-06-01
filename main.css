@@ -1,0 +1,146 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.intro{
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  background: url("img/camera-690526_1920.jpg") no-repeat 50% 50%;
+  display: table;
+  top: 0;
+  background-size: cover;
+}
+.intro .inner{
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  max-width: none;
+}
+.content {
+  max-width: 500px;
+  text-align: center;
+  margin: 0 auto;
+}
+.content h1 {
+  font-family: 'Mr De Haviland', cursive;
+  font-size: 500%;
+  color: #f9f3f4;
+
+}
+.content h3 {
+  font-family: 'Prata', serif;
+  font-size: 150%;
+  color: #f9f3f4;
+}
+.btn {
+  border-radius: 9px;
+  border: solid #f9f3f4 1px;
+  font-family: 'Prata', serif;
+  color: #f0f3f4;
+  font-size: 135%;
+  padding: 10px 20px;
+}
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+  position: relative;
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+/*.background {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  background: url("img/pexels-photo-89095.jpeg") no-repeat 50% 50%;
+  background-size: cover;
+  top: 0;
+  display: table;
+}*/
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
+.background h1{
+  font-family: 'Mr De Haviland', cursive;
+  font-size: 500%;
+  z-index: 5;
+  color: #000;
+}
+
+.gallery {
+  width: 60%;
+  margin: 0 auto;
+  display: inline;
+  padding: 5px;
+  margin-left: 1px;
+}
+.contact-form1{
+  width: 50%;
+  height: 50%;
+  background-color: #42424242;
+  display: table-cell;
+  vertical-align: middle;
+}
