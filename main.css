@@ -131,9 +131,32 @@ footer {
 }
 
 .gallery {
-  width: 60%;
   margin: 0 auto;
   display: inline;
-  padding: 5px;
-  margin-left: 1px;
+  padding: 1px;
+  margin-bottom: 30px;
+}
+#container {
+  margin: auto;
+  width: 60%;
+}
+#form-control{
+  background-color: #424242;
+  height: auto;
+  width: auto;
+  margin: auto;
+  width: 50%;
+}
+input{
+  padding: 10px;
+  margin: 5px;
+}
+#form-control p{
+  text-align: center;
+  border-radius: 9px;
+  border: solid #f9f3f4 1px;
+  font-family: 'Prata', serif;
+  color: #f0f3f4;
+  font-size: 135%;
+  padding: 10px 20px;
 }
