@@ -1,6 +1,10 @@
-$( document ).ready(function() {
-    console.log( "ready!" );
+<script>
+$( "p" ).click(function() {
+  $( this ).slideUp();
 });
-$( "#gallery" ).fadeIn( "slow", function() {
-    // Animation complete
-  });
+</script>
+<script>
+$( document.body ).click(function() {
+  $( "div:hidden:first" ).fadeIn( "slow" );
+});
+</script>
